@@ -1,8 +1,8 @@
 \
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
+import { Badge } from "./badge";
+import { Separator } from "./separator";
+import { Button } from "./button";
 import { Sparkles, ChevronLeft, ChevronRight, Eye, EyeOff } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -90,7 +90,7 @@ const characters: CharacterCardData[] = [
     ],
   },
   {
-    name: "Leandro \\"Lito\\" Fernandes",
+    name: "Leandro (Lito) Fernandes",
     subtitle: "O Dançarino",
     role: "Combatente",
     quote:
